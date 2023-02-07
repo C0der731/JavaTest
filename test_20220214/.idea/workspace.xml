@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fd06446-3330-4de7-9118-84b07407976e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\.m2\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\Maven\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="255DPDswOHTrtyMu9QqgVSAFEqQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\java\test_20220214\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\java\test_20220214\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SystemInfoTest">
+    <configuration name="OshiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.archforce.agent.service.OshiTest" />
+      <module name="test_20220214" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.archforce.agent.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemInfoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.archforce.agent.service.SystemInfoTest" />
+      <module name="test_20220214" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.archforce.agent.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SystemInfoTest" />
+        <item itemvalue="Application.OshiTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fd06446-3330-4de7-9118-84b07407976e" name="Default Changelist" comment="" />
+      <created>1644808027152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644808027152</updated>
+      <workItem from="1644808030394" duration="7211000" />
+      <workItem from="1644822497001" duration="3289000" />
+      <workItem from="1646272233509" duration="202000" />
+      <workItem from="1646272577402" duration="2306000" />
+      <workItem from="1646991894817" duration="9000" />
+      <workItem from="1650694944481" duration="751000" />
+      <workItem from="1650886567231" duration="2244000" />
+      <workItem from="1654742204257" duration="784000" />
+      <workItem from="1655636058531" duration="34000" />
+      <workItem from="1655713552118" duration="1192000" />
+      <workItem from="1656035889549" duration="6700000" />
+      <workItem from="1656292436871" duration="968000" />
+      <workItem from="1656570316447" duration="5478000" />
+      <workItem from="1656646453810" duration="4607000" />
+      <workItem from="1657165745537" duration="4000" />
+      <workItem from="1658374308713" duration="1793000" />
+      <workItem from="1658731535436" duration="595000" />
+      <workItem from="1658808193580" duration="2453000" />
+      <workItem from="1658819191186" duration="624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="144" key="FileChooserDialogImpl" timestamp="1658818906111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="144" key="FileChooserDialogImpl/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1658818906111" />
+    <state x="2341" y="96" key="FileChooserDialogImpl/1920.0.1280.693/0.0.1920.1040@1920.0.1280.693" timestamp="1658814789638" />
+    <state x="250" y="204" key="SettingsEditor" timestamp="1658819219020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="204" key="SettingsEditor/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1658819219020" />
+    <state x="42" y="54" key="new project wizard" timestamp="1658818925128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="42" y="54" key="new project wizard/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1658818925128" />
+    <state x="1948" y="36" key="new project wizard/1920.0.1280.693/0.0.1920.1040@1920.0.1280.693" timestamp="1658818828055" />
+  </component>
+</project>

@@ -1,0 +1,158 @@
+# 主备中心集群
+# 主中心：10.130.11.19 10.130.11.20
+# 备中心：10.130.11.21 10.130.11.22
+global:
+  user: tidb
+  ssh_port: 22
+  deploy_dir: /home/tidb/tidb_2d3c/tidb-deploy
+  data_dir: /home/tidb/tidb_2d3c/tidb-data
+  arch: arm64
+
+monitored:
+  node_exporter_port: 39100
+  blackbox_exporter_port: 39115
+  deploy_dir: /home/tidb/tidb_2d3c/tidb-deploy/monitor-39100
+  data_dir: /home/tidb/tidb_2d3c/tidb-deploy/monitor_data
+  log_dir: /home/tidb/tidb_2d3c/tidb-deploy/monitor-39100/log
+
+server_configs:
+  tidb:
+    oom-use-tmp-storage: true
+    performance.max-procs: 0
+    performance.txn-total-size-limit: 2147483648
+    prepared-plan-cache.enabled: true
+    tikv-client.copr-cache.capacity-mb: 10240.0
+    tikv-client.max-batch-wait-time: 0
+    tmp-storage-path: /home/tidb/tidb_2d3c/tmp_oom
+    split-table: true
+  tikv:
+    coprocessor.split-region-on-table: true
+    readpool.coprocessor.use-unified-pool: true
+    readpool.storage.use-unified-pool: false
+    server.grpc-compression-type: none
+    storage.block-cache.shared: true
+  pd:
+    enable-cross-table-merge: false
+    replication.enable-placement-rules: true
+    schedule.leader-schedule-limit: 4
+    schedule.region-schedule-limit: 2048
+    schedule.replica-schedule-limit: 64
+    replication.. -labels: ["dc","logic","rack","host"]
+  tiflash: {}
+  tiflash-learner: {}
+  pump: {}
+  drainer: {}
+  cdc: {}
+
+tidb_servers:
+  - host: 10.130.11.19
+    ssh_port: 22
+    port: 4000
+    status_port: 10080
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000
+    log_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000/log
+
+  - host: 10.130.11.20
+    ssh_port: 22
+    port: 4000
+    status_port: 10080
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000
+    log_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000/log
+
+  - host: 10.130.11.21
+    ssh_port: 22
+    port: 4000
+    status_port: 10080
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000
+    log_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000/log
+
+  - host: 10.130.11.22
+    ssh_port: 22
+    port: 4000
+    status_port: 10080
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000
+    log_dir: /home/tidb/tidb_2d3c/tidb_deploy/tidb-4000/log
+
+tikv_servers:
+  - host: 10.130.11.19
+    ssh_port: 22
+    port: 20160
+    status_port: 20180
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv-20160
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv_data
+    config:
+      server.labels: { dc:"dc1", logic:"logic1", rack:"r1", host:"10_130_11_19" }
+
+  - host: 10.130.11.20
+    ssh_port: 22
+    port: 20160
+    status_port: 20180
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv-20161
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv_data
+    config:
+      server.labels: { dc:"dc1", logic:"logic2", rack:"r1", host:"10_130_11_20" }
+
+  - host: 10.130.11.21
+    ssh_port: 22
+    port: 20160
+    status_port: 20180
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv-20160
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv_data
+    config:
+      server.labels: { dc:"dc2", logic:"logic3", rack:"r1", host:"10_130_11_21" }
+
+  - host: 10.130.11.22
+    ssh_port: 22
+    port: 20160
+    status_port: 20180
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv-20161
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/tikv_data
+    config:
+      server.labels: { dc:"dc2", logic:"logic4", rack:"r1", host:"10_130_11_22" }
+
+pd_servers:
+  - host: 10.130.11.19
+    ssh_port: 22
+    name: pd-10.130.11.19-2379
+    client_port: 2379
+    peer_port: 2380
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/pd-2379
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/pd_data
+
+  - host: 10.130.11.20
+    ssh_port: 22
+    name: pd-10.130.11.20-2379
+    client_port: 2379
+    peer_port: 2380
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/pd-2379
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/pd_data
+
+  - host: 10.130.11.22
+    ssh_port: 22
+    name: pd-10.130.11.22-2379
+    client_port: 2379
+    peer_port: 2380
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/pd-2379
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/pd_data
+
+monitoring_servers:
+  - host: 10.130.11.19
+    ssh_port: 22
+    port: 10090
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/prometheus-10090
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/prometheus_data
+  - host: 10.130.11.21
+    ssh_port: 22
+    port: 10090
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/prometheus-10090
+    data_dir: /home/tidb/tidb_2d3c/tidb_deploy/prometheus_data
+
+grafana_servers:
+  - host: 10.130.11.19
+    ssh_port: 22
+    port: 3000
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/grafana-3000
+  - host: 10.130.11.21
+    ssh_port: 22
+    port: 3000
+    deploy_dir: /home/tidb/tidb_2d3c/tidb_deploy/grafana-3000

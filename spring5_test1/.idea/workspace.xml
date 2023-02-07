@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7593ce11-15c8-46e3-8508-8e503375e676" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kSjKLOhTMRzgrIG4Ulcbey1lux" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestSpring5.testBook">
+    <configuration name="TestSpring5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.java.spring5.testdemo.TestSpring5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.java.spring5.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.java.spring5.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="testBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.spring5.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.spring5.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.java.spring5.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="testOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSpring5.testBook" />
+        <item itemvalue="JUnit.TestSpring5.testOrder" />
+        <item itemvalue="JUnit.TestSpring5" />
+        <item itemvalue="JUnit.TestSpring5.testAdd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7593ce11-15c8-46e3-8508-8e503375e676" name="Default Changelist" comment="" />
+      <created>1605700821549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605700821549</updated>
+      <workItem from="1605700824634" duration="7033000" />
+      <workItem from="1605711055348" duration="20000" />
+      <workItem from="1610618486507" duration="1853000" />
+      <workItem from="1615269748863" duration="601000" />
+      <workItem from="1615535334440" duration="22000" />
+      <workItem from="1626062150356" duration="5979000" />
+      <workItem from="1626078674859" duration="4911000" />
+      <workItem from="1626140083647" duration="1978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1626078835079">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626078835079" />
+    <state width="1237" height="131" key="GridCell.Tab.0.bottom" timestamp="1626181644731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626181644731" />
+    <state width="1237" height="131" key="GridCell.Tab.0.center" timestamp="1626181644730">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626181644730" />
+    <state width="1237" height="131" key="GridCell.Tab.0.left" timestamp="1626181644730">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626181644730" />
+    <state width="1237" height="131" key="GridCell.Tab.0.right" timestamp="1626181644730">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="131" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626181644730" />
+  </component>
+</project>

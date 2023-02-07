@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2062a2b-f084-4d7f-96f7-0b68b77bd1bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lmA4zRmmpSd8AT4f2MC3OniQlu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.java.team.service" />
+      <recent name="com.java.team.view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\java\Project3\src\com\java\team\domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TeamView">
+    <configuration name="NameListService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.team.service.NameListService" />
+      <module name="Project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.team.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.team.service.TeamException" />
+      <module name="Project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.team.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.team.view.TeamView" />
+      <module name="Project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.team.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNameListService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.team.service.TestNameListService" />
+      <module name="Project3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.team.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TeamView" />
+        <item itemvalue="Application.TestNameListService" />
+        <item itemvalue="Application.TeamException" />
+        <item itemvalue="Application.NameListService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2062a2b-f084-4d7f-96f7-0b68b77bd1bf" name="Default Changelist" comment="" />
+      <created>1608191705876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608191705876</updated>
+      <workItem from="1608191708916" duration="2335000" />
+      <workItem from="1608298057859" duration="639000" />
+      <workItem from="1608363122142" duration="6034000" />
+      <workItem from="1608563573384" duration="2566000" />
+      <workItem from="1608566174697" duration="126000" />
+      <workItem from="1608618932244" duration="20492000" />
+      <workItem from="1608710608434" duration="18036000" />
+      <workItem from="1608787013525" duration="2423000" />
+      <workItem from="1608870797193" duration="2000000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="199" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1608734537417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="199" y="131" key="#com.intellij.ide.util.MemberChooser/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608734537417" />
+    <state x="860" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608366000067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="860" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608366000067" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608876812647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608876812647" />
+    <state width="1493" height="127" key="GridCell.Tab.0.bottom" timestamp="1608794648469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="127" key="GridCell.Tab.0.bottom/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608794648469" />
+    <state width="1493" height="127" key="GridCell.Tab.0.center" timestamp="1608794648469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="127" key="GridCell.Tab.0.center/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608794648469" />
+    <state width="1493" height="127" key="GridCell.Tab.0.left" timestamp="1608794648469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="127" key="GridCell.Tab.0.left/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608794648469" />
+    <state width="1493" height="127" key="GridCell.Tab.0.right" timestamp="1608794648469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="127" key="GridCell.Tab.0.right/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608794648469" />
+    <state x="438" y="46" key="SettingsEditor" timestamp="1608566288756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="46" key="SettingsEditor/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608566288756" />
+    <state x="371" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608648770657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="371" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608648770657" />
+    <state x="499" y="177" key="extract.method.dialog" timestamp="1608649129996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="177" key="extract.method.dialog/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608649129996" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1608627816810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608627816810" />
+    <state x="178" y="22" key="new project wizard" timestamp="1608876806882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="22" key="new project wizard/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608876806882" />
+    <state x="732" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608720941744">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="732" y="145" width="672" height="678" key="search.everywhere.popup/1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1608720941744" />
+  </component>
+</project>
